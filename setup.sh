@@ -27,6 +27,7 @@ cat $REQ_BREW | xargs brew install
 # Install awesome vim
 # Install vundle
 # Install vundle dependencies: https://github.com/JamshedVesuna/vim-markdown-preview
+# Install grip
 
 # Package: Opencv
 # Install opencv and link it with python3
@@ -45,4 +46,5 @@ cat $REQ_BREW | xargs brew install
 #-> Spotify
 #-> Microsoft office
 
-# Package:
+# Package: virtual envs
+
