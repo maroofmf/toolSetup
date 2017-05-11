@@ -38,3 +38,11 @@ cat $REQ_BREW | xargs brew install
 
 
 # Package: XCode
+
+# Package: Essentials
+#-> Google Chrome
+#-> SkYPE
+#-> Spotify
+#-> Microsoft office
+
+# Package:

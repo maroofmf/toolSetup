@@ -1,0 +1,2 @@
+export GAZE=/Users/maroofmohammedfarooq/Desktop/virtualEnvs/gazeConrol/bin/activate
+export TF=/Users/maroofmohammedfarooq/Desktop/virtualEnvs/tensorflow/bin/activate
