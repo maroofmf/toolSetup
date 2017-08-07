@@ -1,0 +1,10 @@
+gcc
+grip
+htop
+homebrew/science/opencv3
+perl
+python
+python3
+ruby
+unrar
+vim

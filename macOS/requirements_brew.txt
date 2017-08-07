@@ -1,0 +1,15 @@
+boost
+gcc
+go
+grip
+htop
+imagemagick
+llvm
+homebrew/science/opencv3
+perl
+python
+python3
+ruby
+unrar
+vim
+wget

@@ -1,0 +1,2 @@
+export TF=/Users/maroofmohammedfarooq/Desktop/virtualEnvs/tensorflow/bin/activate
+export parlai=/Users/maroofmohammedfarooq/Desktop/virtualEnvs/parlai/bin/activate
