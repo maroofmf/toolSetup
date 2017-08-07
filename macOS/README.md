@@ -1,5 +1,5 @@
-**Author** : Maroof Mohammed Farooq
-**Email**  : maroofmf@gmail.com
+**Author** : Maroof Mohammed Farooq  
+**Email**  : maroofmf@gmail.com  
 
 # Tools and Dependencies
 
