@@ -27,8 +27,10 @@ env > env.txt
 cat ~/.vimrc > vimrc.txt
 #--------------------------------------------------------------------------------------------------#
 # Upload to git
-
-git add *
-git commit -m"Cron Job commit. Tools backup taken on: $(date)"
-git push origin master
+GIT=`which git`
+REPO_DIR=/Users/maroofmohammedfarooq/Desktop/toolSetup
+cd ${REPO_DIR}
+${GIT} add --all .
+${GIT} commit -m"Cron Job commit. Tools backup taken on: $(date)"
+${GIT} push origin master
 
