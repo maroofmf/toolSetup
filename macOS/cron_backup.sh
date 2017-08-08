@@ -28,6 +28,8 @@ cat ~/.vimrc > vimrc.txt
 #--------------------------------------------------------------------------------------------------#
 # Upload to git
 GIT=`which git`
+${GIT} config --global user.name "maroofmf"
+${GIT} config --global user.email "maroofmf@usc.edu"
 REPO_DIR=/Users/maroofmohammedfarooq/Desktop/toolSetup
 cd ${REPO_DIR}
 ${GIT} add --all .
