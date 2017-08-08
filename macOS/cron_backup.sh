@@ -4,7 +4,8 @@
 # Crontab settings:
 MAILTO=""
 PATH=Users/maroofmohammedfarooq/go/bin:Users/maroofmohammedfarooq/go/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
-
+REPO_DIR=/Users/maroofmohammedfarooq/Desktop/toolSetup/macOS
+cd ${REPO_DIR}
 
 #--------------------------------------------------------------------------------------------------#
 # Refresh text files:
@@ -27,12 +28,11 @@ env > env.txt
 cat ~/.vimrc > vimrc.txt
 #--------------------------------------------------------------------------------------------------#
 # Upload to git
-GIT=`which git`
-${GIT} config --global user.name "maroofmf"
-${GIT} config --global user.email "maroofmf@usc.edu"
-REPO_DIR=/Users/maroofmohammedfarooq/Desktop/toolSetup
-cd ${REPO_DIR}
-${GIT} add --all .
-${GIT} commit -m"Cron Job commit. Tools backup taken on: $(date)"
-${GIT} push https://github.com/maroofmf/toolSetup.git master
+#GIT=`which git`
+#${GIT} config --global user.name "maroofmf"
+#${GIT} config --global user.email "maroofmf@usc.edu"
+#git remote -v >> ~/test.txt
+git add --all .
+git commit -m"Cron Job commit. Tools backup taken on: $(date)"
+git push origin master
 
