@@ -7,7 +7,7 @@
 brew leaves > requirements_brew.txt
 
 # Tensorflow
-source $TF
+source /Users/maroofmohammedfarooq/Desktop/virtualEnvs/tensorflow/bin/activate
 pip3 freeze > tf_requirements.txt
 deactivate
 
