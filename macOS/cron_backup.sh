@@ -32,5 +32,5 @@ REPO_DIR=/Users/maroofmohammedfarooq/Desktop/toolSetup
 cd ${REPO_DIR}
 ${GIT} add --all .
 ${GIT} commit -m"Cron Job commit. Tools backup taken on: $(date)"
-${GIT} push origin master
+${GIT} push git@https://github.com/maroofmf/toolSetup.git master
 
