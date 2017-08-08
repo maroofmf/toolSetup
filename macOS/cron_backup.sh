@@ -34,5 +34,5 @@ cat ~/.vimrc > vimrc.txt
 #git remote -v >> ~/test.txt
 git add --all .
 git commit -m"Cron Job commit. Tools backup taken on: $(date)"
-#git push origin master
+git push origin master
 
