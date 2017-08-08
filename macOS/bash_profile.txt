@@ -2,6 +2,9 @@
 # Virtual Environment path
 export TF=/Users/maroofmohammedfarooq/Desktop/virtualEnvs/tensorflow/bin/activate
 
+# Export editor
+export EDITOR=vim
+
 # Aliases:
 alias g++mp='g++-7 -fopenmp'
 alias gccmp='gcc-7 -fopenmp'

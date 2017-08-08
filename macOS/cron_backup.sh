@@ -1,6 +1,12 @@
 # Author: Maroof Mohammed
 # Description: This file is used to set up backup as a cron job
 #--------------------------------------------------------------------------------------------------#
+# Crontab settings:
+MAILTO=""
+PATH=Users/maroofmohammedfarooq/go/bin:Users/maroofmohammedfarooq/go/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
+
+
+#--------------------------------------------------------------------------------------------------#
 # Refresh text files:
 
 # Brew
