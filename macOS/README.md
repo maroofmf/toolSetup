@@ -2,7 +2,6 @@
 **Email**  : maroofmf@gmail.com  
 
 # Tools and Dependencies
-** New one mins updatest **
 
 # Description
 
