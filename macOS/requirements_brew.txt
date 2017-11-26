@@ -2,6 +2,7 @@ boost
 cmake
 ctags
 gcc
+gdb
 go
 grip
 htop
